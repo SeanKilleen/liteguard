@@ -1,0 +1,18 @@
+{
+  "$schema": "https://raw.githubusercontent.com/DotNetAnalyzers/StyleCopAnalyzers/master/StyleCop.Analyzers/StyleCop.Analyzers/Settings/stylecop.schema.json",
+  "settings": {
+    "layoutRules": {
+      "newlineAtEndOfFile": "require"
+    },
+    "documentationRules": {
+      "copyrightText": "Copyright (c) 2013 Adam Ralph.",
+      "xmlHeader": false,
+
+      "documentInterfaces": false,
+      "documentExposedElements": false,
+      "documentInternalElements": false,
+
+      "fileNamingConvention": "metadata"
+    }
+  }
+}

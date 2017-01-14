@@ -1,7 +1,7 @@
 root = true
 
 [*]
-indent_style=space
+indent_style = space
 end_of_line = crlf
 charset = utf-8
 trim_trailing_whitespace = true
@@ -9,12 +9,11 @@ insert_final_newline = true
 indent_size = 2
 max_line_length = 120
 
-[*.{cs,csx}]
+[*.cs]
 indent_size = 4
 
-[*.sh]
-end_of_line = lf
-max_line_length = 9999
+[*.csx]
+indent_size = 4
 
 [*.cmd]
 max_line_length = 9999
